@@ -1,8 +1,12 @@
 # City::Ordinance::Cli
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/city/ordinance/cli`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+This CLI application scrapes content from library.municode.com, allowing users to view the text of a chapter of a city ordinance.
+  1) Users select their state;
+  2) The app presents the user with available cities within that state;
+  3) Users select a city;
+  4) Users select to either view:
+     - an entire chapter of the ordinance, or
+     - an article of the ordinance.
 
 ## Installation
 
